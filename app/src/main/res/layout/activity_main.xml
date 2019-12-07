@@ -4,25 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:gravity="center"
-    android:background="#0083A7"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
    <Button
-       android:visibility="gone"
-       android:background="@drawable/bg_shape_button"
-       android:text="Shape"
+       android:background="@drawable/bg_state_button"
+       android:text="State List"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"/>
 
-   <EditText
-       android:textColorHint="#fff"
-       android:padding="15dp"
-       android:layout_marginHorizontal="10dp"
-       android:background="@drawable/bg_shape_edt"
-       android:drawablePadding="10dp"
-       android:drawableLeft="@mipmap/ic_launcher"
-       android:hint="Email"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"/>
+
 </RelativeLayout>
